@@ -1,0 +1,22 @@
+<html>
+  <body>     
+     <h1>Demostración de Output en Javasccript</h1>
+
+    <p id="texto"></p>
+
+    <button onclick="actualizarTexto()">Cambiar texto</button>
+    <button onclick="enviarAlerta()">Enviar alerta</button>
+
+    <script>
+      function enviarAlerta() {
+        alert("Emilio!");
+      }
+
+      function actualizarTexto() {
+        document.getElementById("texto").innerHTML = "Texto actualizado con Javascript!";
+      }
+
+      console.log("Hola consola");
+    </script>
+  </body>
+</html>
